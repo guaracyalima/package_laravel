@@ -17,6 +17,7 @@
                 ->group(__DIR__ . '/../Routes/web.php');
 
             $this->loadViewsFrom (__DIR__ . '/../Views', 'Page');
+            $this->loadMigrationsFrom (__DIR__ . '/../Migrations');
         }
 
         public function register (  )
